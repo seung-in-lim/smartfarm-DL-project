@@ -1,0 +1,38 @@
+# =============================================================
+# Smart Farm Deep Learning Project - Python Dependencies
+# =============================================================
+# Tested on:
+#   - macOS 14+ (Apple Silicon M2, MPS backend)
+#   - Kaggle Notebook (Ubuntu, CUDA 12.x)
+#   - Python 3.10+
+# Install: pip install -r requirements.txt
+# =============================================================
+
+
+# ---------- Core Data Processing ----------
+pandas>=2.0.0
+numpy>=1.24.0
+PyYAML>=6.0
+
+
+# ---------- Machine Learning (Tabular) ----------
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+
+# ---------- Deep Learning (YOLOv8) ----------
+# torch>=2.0.0 provides MPS backend for Apple Silicon
+# and CUDA backend for cloud GPUs (Kaggle T4/P100/L4)
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.200
+Pillow>=10.0.0
+
+
+# ---------- Visualization ----------
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+
+# ---------- Utilities ----------
+tqdm>=4.65.0

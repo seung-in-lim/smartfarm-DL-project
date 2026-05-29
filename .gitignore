@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+.ipynb_checkpoints/
+
+# Dataset folders (raw data excluded, but keep config files)
+ml_data_sample/
+yl_data_sample/*
+!yl_data_sample/data.yaml
+disease_detection_data/
+image_data_raw/
+image_data/
+*.zip
+
+# YOLO training results (weights excluded via *.pt rule below, keep figures/logs)
+runs/**/weights/
+runs/**/*.engine
+runs/**/*.onnx
+
+# Model files
+*.pt
+*.h5
+*.keras
+*.pth
+*.pkl

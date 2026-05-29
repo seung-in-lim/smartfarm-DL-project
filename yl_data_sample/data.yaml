@@ -1,0 +1,14 @@
+path: ../yl_data_sample  # 또는 환경변수로 처리
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names: ['Angular Leafspot', 'Anthracnose Fruit Rot', 'Blossom Blight', 'Gray Mold', 'Leaf Spot', 'Powdery Mildew Fruit', 'Powdery Mildew Leaf']
+
+roboflow:
+  workspace: strawberry-disease
+  project: strawberry-disease-detection-dataset
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/strawberry-disease/strawberry-disease-detection-dataset/dataset/4
